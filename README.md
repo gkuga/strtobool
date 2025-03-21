@@ -1,5 +1,6 @@
-```markdown
 # strtobool
+
+![CI](https://github.com/gkuga/strtobool/actions/workflows/test.yml/badge.svg)
 
 A tiny utility function to convert a string representation of truthy or falsy values to a boolean. Inspired by Python's `distutils.util.strtobool`.
 
@@ -20,10 +21,10 @@ yarn add strtobool
 ```ts
 import { strToBool } from 'strtobool';
 
-strToBool('yes');   // true
-strToBool('no');    // false
-strToBool('1');     // true
-strToBool('off');   // false
+strToBool('yes'); // true
+strToBool('no'); // false
+strToBool('1'); // true
+strToBool('off'); // false
 ```
 
 ## Supported Values
@@ -46,4 +47,3 @@ Sometimes you get string input (from CLI, env vars, config files, etc.) and want
 ## License
 
 MIT
-```

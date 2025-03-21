@@ -2,9 +2,9 @@
   "name": "strtobool",
   "private": false,
   "version": "0.0.1",
-  "description": "",
+  "description": "Convert string representation of truthy/falsy values to boolean",
   "author": "gkuga",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "type": "module",
   "keywords": [
     "npm",
@@ -32,8 +32,14 @@
     "prepare": "pnpm build"
   },
   "devDependencies": {
+    "plop": "^4.0.1",
+    "typedoc": "^0.28.1",
+    "typedoc-plugin-markdown": "^4.5.2",
     "typescript": "~5.7.3",
     "vite": "^6.1.1",
     "vite-plugin-dts": "^4.5.3"
+  },
+  "dependencies": {
+    "ts-readme": "^1.1.3"
   }
 }

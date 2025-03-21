@@ -1,6 +1,6 @@
 **strtobool**
 
-***
+---
 
 # strtobool
 

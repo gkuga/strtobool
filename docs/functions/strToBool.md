@@ -1,6 +1,6 @@
 [**strtobool**](../README.md)
 
-***
+---
 
 [strtobool](../README.md) / strToBool
 

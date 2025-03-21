@@ -7,4 +7,4 @@ export const strToBool = (value: string): boolean => {
   if (falseValues.includes(normalized)) return false;
 
   throw new Error(`Invalid truth value: ${value}`);
-}
+};

@@ -10,7 +10,10 @@
     "npm",
     "typescript"
   ],
-  "packageManager": "pnpm@9.12",
+  "engines": {
+    "node": ">=20.15.0",
+    "pnpm": ">=10.6.5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gkuga/strtobool"
@@ -29,7 +32,6 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "prepare": "husky install",
     "test": "vitest run --coverage",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
@@ -51,5 +53,10 @@
   },
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx,json,md}": "prettier --write"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
